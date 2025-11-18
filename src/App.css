@@ -195,12 +195,16 @@ h3 { font-size: 1.8rem; }
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                url('./head1.jpg');
+
+    background: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url('/head1.jpg');  /* <-- FIXED */
+
     background-size: cover;
     background-position: center;
     z-index: -1;
 }
+
 
 .hero-content {
     max-width: 800px;
