@@ -1,69 +1,57 @@
-⭐ FITLIFE GYM – React + Vite (Fitness Website)
+🟦 **FitLife Gym – React + Vite Website**
 
-A modern, fully responsive gym website built using React + Vite, featuring smooth scrolling, user authentication (login/register), membership plan selection, and a clean UI.
+A modern, responsive fitness website built using React + Vite, featuring smooth scrolling, user authentication, and membership plans.
 
-🚀 Live Demo
+---
 
-(After deployment, I will replace this with your actual link)
-👉 https://your-fitlife-demo-link.com
+🚀 **Live Demo**  
+🔗 (Add after deployment on Vercel)
 
-📸 Screenshots
+---
 
-(Upload your images inside /screenshots and update paths)
+⭐ **Features**
 
-Home Section	Plans Section	Login Page
+### 🔹 Home Page
+- Hero section  
+- About section  
+- Services  
+- Plans  
+- Smooth scrolling navigation  
 
-	
-	
-🧩 Features
-✅ Home Page
+### 🔹 Authentication  
+- Login  
+- Register  
+- LocalStorage-based user system  
+- Dynamic navbar (Login → Logout)
 
-Hero section
+### 🔹 Membership Plans  
+- Monthly/Yearly toggle  
+- Popular plan highlighting  
+- Redirect to login if selecting a plan  
 
-About section
+### 🔹 UI  
+- Fully responsive  
+- FontAwesome icons  
+- Mobile-friendly hamburger menu  
 
-Services
+---
 
-Plans
+🛠 **Tech Stack**
 
-Smooth scrolling navigation
+| Area       | Tech |
+|------------|------------------------|
+| Frontend   | React, Vite, JSX       |
+| Routing    | react-router-dom       |
+| Notifications | react-hot-toast     |
+| Styling    | CSS                    |
+| Icons      | FontAwesome           |
+| Auth       | LocalStorage           |
 
-✅ Authentication
+---
 
-Login
+📂 **Folder Structure**
 
-Register
-
-LocalStorage-based user management
-
-Login/Logout changes navbar dynamically
-
-✅ Plans & Membership
-
-Monthly/Yearly toggle
-
-Popular plan highlighting
-
-Redirect to login when selecting plans
-
-✅ Modern UI
-
-Fully responsive
-
-Clean layout
-
-FontAwesome icons
-
-Animated hamburger menu for mobile
-
-🛠 Tech Stack
-Area	Technology
-Frontend	React, Vite, JSX
-Styling	CSS, FontAwesome
-Routing	react-router-dom
-Notifications	react-hot-toast
-Auth	LocalStorage
-📂 Folder Structure
+```
 fitlife-gym-website/
 │── public/
 │── src/
@@ -79,34 +67,45 @@ fitlife-gym-website/
 │   │   ├── Login.jsx
 │   │   ├── ForgotPassword.jsx
 │   ├── App.jsx
-│   ├── App.css
 │   ├── main.jsx
+│   ├── App.css
 │── package.json
 │── vite.config.js
 │── README.md
+```
 
-🧪 Run Locally
-1️⃣ Clone Repo
+---
+
+🧪 **Run Locally**
+
+### 1️⃣ Clone the Repository
+```
 git clone https://github.com/Krantikumar4211/fitlife-gym-website.git
+```
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
+```
 npm install
+```
 
-3️⃣ Run Development Server
+### 3️⃣ Start Development Server
+```
 npm run dev
+```
 
-📦 Build for Production
+---
+
+📦 **Build for Production**
+```
 npm run build
+```
 
-📝 License
+---
 
-This project is licensed under the MIT License.
+👨💻 **Author**
 
-👨‍💻 Author
+**Krantikumar Patil**  
+📧 krantikumar4211@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/krantikumarpatil4211/
 
-Krantikumar Patil
-📧 Email: krantikumar4211@gmail.com
-
-🔗 LinkedIn: https://linkedin.com/in/your-profile
-
-🔗 GitHub: https://github.com/Krantikumar4211
+---
