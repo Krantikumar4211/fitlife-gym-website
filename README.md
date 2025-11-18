@@ -5,7 +5,7 @@ A modern, responsive fitness website built using React + Vite, featuring smooth 
 ---
 
 🚀 **Live Demo**  
-🔗 (Add after deployment on Vercel)
+🔗 https://inquisitive-smakager-d3747b.netlify.app/
 
 ---
 
